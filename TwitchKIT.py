@@ -92,11 +92,11 @@ if __name__ == "__main__":
 			2 - Checker [Usernames]
 			> ''')
 		if '3' in version:
-			do_check = raw_input('''
+			do_check = str(input('''
 			Choose any number ?
 			1 - Brute Force
 			2 - Checker
-			> ''')
+			> '''))
 		if do_check == '1':
 			if '2' in version:
 				email_list = raw_input("List Of Emails => ")
