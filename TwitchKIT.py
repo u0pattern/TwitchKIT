@@ -94,8 +94,8 @@ if __name__ == "__main__":
 		if '3' in version:
 			do_check = str(input('''
 			Choose any number ?
-			1 - Brute Force
-			2 - Checker
+			1 - Checker [Emails]
+			2 - Checker [Usernames]
 			> '''))
 		if do_check == '1':
 			if '2' in version:
