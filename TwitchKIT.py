@@ -125,4 +125,9 @@ if __name__ == "__main__":
 				thread2.join()
 	########
 	if do == '3':
-		creator()
+		if '2' in version:
+			looping = raw_input("How many accounts do you want to create => ")
+		if '3' in version:
+			looping = int(input("How many accounts do you want to create => "))
+		for x in range(1,looping)
+			creator()
