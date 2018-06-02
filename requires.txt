@@ -1,2 +1,5 @@
+idna
+chardet
+certifi
+urllib3
 requests
-threading
